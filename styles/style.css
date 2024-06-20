@@ -234,11 +234,16 @@ height: 30vh;
 .container_button { 
 justify-content: center;
 align-items: center; 
-width: 100%;
+width:100% ;
+
 }
 .contactanos{
   font-size: 1.7rem;
   color: black;
+  height: 60px;
+  width: 300px !important; 
+  border-radius: 45%;
+
 }
 
 .quienes_somos {
