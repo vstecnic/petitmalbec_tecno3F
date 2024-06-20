@@ -95,7 +95,7 @@ body{
     width: 500px;
     border-radius: 45%;
     font-size: 3rem;
-    color: blanchedalmond;
+    color: black;
   }
 
   .contactanos:hover{
@@ -234,9 +234,11 @@ height: 30vh;
 .container_button { 
 justify-content: center;
 align-items: center; 
+width: 100%;
 }
 .contactanos{
-  font-size: 1.8rem;
+  font-size: 1.7rem;
+  color: black;
 }
 
 .quienes_somos {
