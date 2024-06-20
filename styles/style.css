@@ -1,0 +1,338 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    /*border: red solid;*/
+    background-color: black
+}
+
+.container_header{
+   
+        display: flex; 
+        align-items: center;
+        justify-content: space-between; 
+        width: 100%; 
+        
+      }
+
+h1{
+    color:  blanchedalmond;
+    font-size: 2.3rem; 
+    margin-bottom: 13px;
+}
+.header{
+ display: flex;
+ justify-content: center;
+ color: blanchedalmond;
+ background-color:rgba(14, 14, 21, 0.564);;
+
+}
+nav {
+    margin: 0;
+  }
+  
+  .nav {
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex;
+  }
+  
+  .nav li {
+    margin-right: 20px; 
+    color: blanchedalmond;
+    padding-right: 0.1em;
+    font-size: 1.5rem;
+  }
+  .nav li:hover{
+    color:cadetblue;
+  }
+a{
+    text-decoration: none;
+}
+.banner_img{
+   
+    width: 100%;
+    height: 400px;
+    
+}
+
+.container_button { 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+
+body{
+    display: flexbox;
+    background-color: grey;
+}    
+
+
+.quienes_somos {
+    display: flex; 
+    align-items: center; 
+    justify-content:  space-between; 
+    width: 100%;
+    padding: 2em;
+  }
+  .quienesSomosP {
+    display: flex; 
+    color: blanchedalmond;
+    font-size: 1.5rem;
+    
+  }
+ 
+
+ li{
+    color: blanchedalmond;
+  }
+  .contactanos{
+    background-color: greenyellow;
+    height: 60px;
+    width: 500px;
+    border-radius: 45%;
+    font-size: 3rem;
+    color: blanchedalmond;
+  }
+
+  .contactanos:hover{
+    box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px #fff;
+    transform: scale(1.2);
+    transition: transform .7s;
+  
+  }
+
+   
+
+h2,h3{
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 3.5rem;
+}
+
+.nuestros_servicios {
+  display: inline-block; 
+  align-items: center;
+  width: 100%; 
+  padding: 2em;
+}
+.service_one{
+  display: flex;
+  flex-wrap: initial;
+  
+  margin-bottom: 2em;
+  
+}
+.service_two{
+  display: flex;
+  margin-bottom: 2em;
+}
+.nuestros_serviciosP {
+  font-size: 1.5rem;
+  margin-left: 2em;
+  align-content: center;
+  color: blanchedalmond;
+ 
+}
+
+.qs_img {
+  max-width: 80vh; 
+  height: 20%; 
+}
+
+.bodegas_img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+.bodega_card:hover{
+  transform: scale(1.5);
+  transition: transform .7s;
+}
+
+.bodega_card{
+    padding: 1em;
+    width: 280px;
+
+}
+
+footer{
+    color: blanchedalmond;
+    background-color: black;
+    text-align: center;
+}
+.container_social{
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+.img_social{
+  width: 150px;
+  padding: 2em;
+}
+
+
+.img_social:hover{
+  background-color: white;
+  border-radius: 50%;
+}
+    
+
+
+/* MEDIA QUERY PARA MOBILES */
+
+@media only screen and (max-width: 600px) {
+
+  .container_header{
+    display: block; 
+    align-items: center; 
+    width: 100%; 
+  }
+
+h1{
+color:blanchedalmond;
+margin: 0; 
+font-size: 1.5rem; 
+margin-left: 1em;
+}
+
+.header{
+display: flex;
+justify-content: right;
+color: blanchedalmond;
+background-color:rgba(14, 14, 21, 0.564);;
+}
+
+.nav_header ul {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.nav li {
+color: blanchedalmond;
+font-size: 1.5rem;
+margin-right: 0px;
+}
+
+a{
+box-sizing:border-box;
+text-decoration: none;
+}
+.banner_img{
+width: 100%;
+height: 45vh;
+}
+
+.container_button { 
+justify-content: center;
+align-items: center; 
+}
+.contactanos{
+  font-size: 1.8rem;
+}
+
+.quienes_somos {
+display:block;
+align-items: center; 
+justify-content:center;
+width: 100%; 
+padding: 1em;
+}
+.quienesSomosP {
+color: blanchedalmond;
+font-size: 1.8rem;
+justify-content: center;
+text-align: center;
+}
+.qs_img {
+  margin-left: 12px;
+  display: block;
+  width: 270px;
+  height: 55vh;
+   
+  }
+
+
+li{
+color: blanchedalmond;
+}
+.contactanos{
+
+background-color: greenyellow;
+height: 60px;
+width: 500px;
+border-radius: 45%;
+
+}
+
+h2,h3{
+font-size: 3.5rem;
+text-align: center;
+color: blanchedalmond;
+}
+
+.nuestros_servicios {
+display:block; 
+align-items: center; 
+width: 100%; 
+padding: 0.9em
+}
+.service_one{
+display: inline-block;
+margin-bottom: 2em;
+
+}
+.service_two{
+display: inline-block;
+margin-bottom: 0.2em;
+}
+.nuestros_serviciosP {
+font-size: 1.8rem;
+align-content: center;
+color: blanchedalmond;
+justify-content: center;
+text-align: center;
+margin-left: 0.1em
+
+}
+
+
+
+.bodegas_img{
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.bodega_card{
+padding: 0.5em;
+width: 300px;
+}
+
+
+footer{
+color: blanchedalmond;
+background-color: black;
+text-align: center;
+}
+.container_social{
+display: flex;
+justify-content: center;
+align-items: center
+}
+.img_social{
+width: 100px;
+padding: 2em;
+
+}
+
+}
+    
